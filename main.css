@@ -57,12 +57,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-left: 2px solid #7F7979;
 }
 
 .main-about{
     font-size: 9rem;
+    color: #7F7979;
 }
 .prof-pic{
     height: auto;
     width: 400px;
+}
+
+.main-about__description{
+    font-size: 2.6rem;
+    color: #757575;
+    line-height: 1.3;
 }
