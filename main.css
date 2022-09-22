@@ -12,7 +12,7 @@
 
 .header-img{
     height: auto;
-    width: 90px;
+    width: 80px;
 }
 
 .nav-items{
@@ -34,4 +34,35 @@
     gap: 2rem;
     align-items: center;
     justify-content: space-between;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 6rem;
+}
+
+.about-main{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.picture-main{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-about{
+    font-size: 9rem;
+}
+.prof-pic{
+    height: auto;
+    width: 400px;
 }
