@@ -112,10 +112,34 @@
     letter-spacing: 4px;
 }
 
-.myskills{
+.myabout{
     padding: 3rem 4rem;
     box-shadow: inset 0px 0px 10px 1px rgb(0 0 0 / 10%);
     background: #f5f5f5;
+}
+
+.about-wrapper{
+    margin: 0rem 8rem;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.code-img{
+    height: auto;
+    width: 381px;
+}
+
+.abt-text{
+    font-size: 2.6rem;
+    color: #7F7979;
+    display: flex;
+    letter-spacing: 5px;
+    justify-content: center;
+}
+
+.myskills{
+    padding: 3rem 4rem;
 }
 
 .myskills-header{
@@ -154,6 +178,22 @@
 .get-started:hover .arrow-rotate{
     transform: rotate(90deg);
     stroke: #f5f5f5;
+}
+
+.about-img{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-info{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
