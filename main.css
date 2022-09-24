@@ -597,7 +597,7 @@
         font-size: 14px;
     }
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 400px){
     .main-about {
     font-size: 2rem;
 }
