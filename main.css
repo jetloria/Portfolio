@@ -274,6 +274,7 @@
 .port-img{
     height: auto;
     width: 100%;
+    border-radius: 10px;
 }
 
 .img-overlay{
@@ -473,3 +474,56 @@
       opacity: 1;
     }
   }
+
+
+
+
+
+/* *Media Screens */
+
+@media  screen and (max-width:1400px) {
+    .prof-pic {
+        width: 355px;
+    }
+
+    .main-about{
+        font-size: 3rem;
+    }
+    .main-about__description{
+        font-size: 1.6rem;
+    }
+
+    .get-started{
+        padding: 6px;
+        font-size: 14px;
+    }
+    .arrow-rotate{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media  screen and (max-width:1000px) {
+    .main{
+        padding: 12rem 2rem;
+    }
+}
+
+@media  screen and (max-width:860px) {
+    .main{
+        padding: 7rem 2rem;
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .picture-main{
+        border: none;
+    }
+
+    .prof-pic{
+        width: 450px;
+    }
+    .main-about{
+        font-size: 4rem;
+    }
+}
