@@ -252,7 +252,7 @@
     display: flex;
     position: relative;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     box-shadow: 2px 2px 4px grey;
     gap: 2rem;
     border-radius: 20px;
@@ -501,6 +501,20 @@
         width: 20px;
         height: 20px;
     }
+    .about-wrapper{
+        margin: 0;
+    }
+}
+
+@media  screen and (max-width:1160px) {
+    .about-wrapper{
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem ;
+    }
+    .about-list{
+        list-style:circle;
+    }
 }
 
 @media  screen and (max-width:1000px) {
@@ -525,5 +539,58 @@
     }
     .main-about{
         font-size: 4rem;
+    }
+
+    .skills{
+        margin: 0;
+    }
+    .projects{
+        margin: 0;
+    }
+    .about-main{
+        width: 100%;
+    }
+    .myabout{
+        padding: 6rem 2rem;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .prof-pic {
+        width: 255px;
+    }
+    .main-about{
+        font-size: 3rem;
+    }
+    .main-about__description {
+        font-size: 1rem;
+    }
+    .code-img{
+        width: 185px;
+    }
+    .abt-text{
+        font-size: 1.6rem;
+    }
+    .myskills-header{
+        font-size: 1.6rem;
+    }
+    .skill-img{
+        width: 115px;
+    }
+    .skills-font{
+        font-size: 14px;
+    }
+    .portfolio-box{
+    height: 226px;
+    width: 223px;
+    }
+    .visit-site{
+        font-size: 13px;
+    }
+    .header-nav__bar{
+        display: none;
+    }
+    .portfolio{
+        padding: 6rem 1rem;
     }
 }
