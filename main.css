@@ -594,3 +594,8 @@
         padding: 6rem 1rem;
     }
 }
+@media screen and (max-width: 375px){
+    .main-about {
+    font-size: 2rem;
+}
+}
