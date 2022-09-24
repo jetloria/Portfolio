@@ -35,14 +35,14 @@
         <p class="main-about__description">Front-End Web Developer</p>
         <button class="get-started">View my Work <svg class="arrow-rotate" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"/></svg></button>
       </div>
-      <div class="picture-main">
+      <div class="picture-main slide-in-blurred-top">
         <img class="prof-pic slide-in-blurred-right" src="Static/img/man.png" alt="">
       </div>
     </section>
 
     <section class="myabout">
-      <div class="about-wrapper">
-        <div class="about-img">
+      <div class="about-wrapper reveal">
+        <div class="about-img ">
           <img class="code-img" src="Static/img/coding.png" alt="">
         </div>
         <div class="about-info">
@@ -58,7 +58,7 @@
       </div>
     </section>
 
-    <section class="myskills">
+    <section class="myskills reveal">
       <h1 class="myskills-header">My Skills</h1>
       <div class="skills">
         <div class="html-skill skills-box">
@@ -92,7 +92,27 @@
   </section>
 </body>
 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script>
 
+
+function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal);
 </script>
 </html>
