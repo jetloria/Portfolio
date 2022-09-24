@@ -593,6 +593,9 @@
     .portfolio{
         padding: 6rem 1rem;
     }
+    .about-list{
+        font-size: 14px;
+    }
 }
 @media screen and (max-width: 375px){
     .main-about {
