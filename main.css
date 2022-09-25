@@ -193,6 +193,11 @@
 .contact-img{
     height: auto;
     width: 55px;
+    transition: all 0.5s;
+}
+
+.contact-img:hover{
+    transform: scale(1.1);
 }
 .contact-me{
     display: flex;
